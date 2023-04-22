@@ -1,86 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Norma Villegas</title>
-<style>
-	body {
-		margin: 2em 5%;
-		font-family: Georgia, "Times New Roman", Times, serif;
-		background-color:#ebf0f8;
-	}	
-	h1 {
-		color:#00216d;
-		font-weight:strong;
-		margin-top:30px;
-		text-align:center;
-		border-bottom: 1px solid #57b1dc;
-		font-family: Verdana, Geneva, sans-serif;
-	}
-	h2 {
-		font-family: Verdana, Geneva, sans-serif;
-		font-size: 1em;
-		color:#00216d;
-	}
-	small {
-		color: #999;
-	}
-	footer img{
-	  width: 40px;
-	  height: 40px;
-	  margin-left: .5em;
-	  margin-right: .5em;
-	}
-	
-</style>
-
+	<meta charset="utf-8">
+	<title>Norma Villegas</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Fjalla+One&display=swap" rel="stylesheet">	
 </head>
 
 <body>
-		<h1>Norma Villegas</h1>	
-
-		<h2>About Me</h2>
-			<p>
-			An <strong>illustrator</strong> and <strong>graphic designer</strong> student from <em>Seminole State College</em>. Highly organized and detail-oriented with experience in mediums such as digital art and vector art. Highly adept in Adobe programs such as Photoshop, Illustrator, and InDesign. <strong>Effective time-management</strong> and <strong>problem-solving</strong> that allows the completion of projects with maximun teamwork and minimal supervision.</i> 
-			</p>
-	<h2>Skills</h2>
+	<header id="top">
+		<p>
+			<img src="images/profile.png" alt="Profile" width="200">
+		</p>
+		<h1>
+			Norma Villegas
+		</h1>		
+		<p>
+			illustrator/graphic designer
+		</p>
+		<!--add navigation-->
 		<ul>
-			<li>Desgin</li>
-			<li>Illustration</li>
-			<li>Web Design</li>
-			<li>HTML</li>
-			<li>Digital Media</li>
-			<li>Photoshop</li>
-			<li>Typography</li>
-			<li>Github</li>
-			<li>Web Development</li>
-			<li>User Interface Design</li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#socials">Social Media</a></li>
+			<li><a href="#samples">Work Samples</a></li>
 		</ul>
+	</header>
+			
+	<article>
+		<section id="about">
+			<h2>About Me</h2>
+				<p>
+				An <strong>illustrator</strong> and <strong>graphic designer</strong> student from <em>Seminole State College</em>. Highly organized and detail-oriented with experience in mediums such as digital art and vector art. Highly adept in Adobe programs such as Photoshop, Illustrator, and InDesign. <strong>Effective time-management</strong> and <strong>problem-solving</strong> that allows the completion of projects with maximun teamwork and minimal supervision. 
+				</p>		
+		</section>
+		
+		<section id="skills">
+			<h2>Skills</h2>
+			<table class="center">
+				<tr>
+					<td>Design</td>
+					<td>Illustration</td>
+				</tr>
+				<tr>
+					<td>Web Design</td>
+					<td>HTML</td>				
+				</tr>
+				<tr>
+					<td>Digital Media</td>
+					<td>Photoshop</td>
+				</tr>
+				<tr>
+					<td>Typography</td>
+					<td>Github</td>
+				</tr>
+				<tr>
+					<td>Web Development</td>
+					<td>User Interface Design</td>
+				</tr>				
+			</table>
+		</section>
 
-	<h2>Sofware/Hardware</h2>
-		<ul>
-			<li>Photoshop</li>
-			<li>Adobe Illustrator</li>
-			<li>InDesign</li>
-			<li>Procreate</li>
-			<li>Dreamweaver</li>
-		</ul>
-	<h2>Work Samples<h2>
+		<section>
+			<h2>Languages</h2>
+			<ul>
+				<li>English</li>
+				<li>Spanish</li>
+			</ul>
+		</section>
+		
+		<section>
+			<h2>Sofware/Hardware</h2>
+			<table class="center">
+				<tr>
+					<td>
+						<img src="images/photoshop.svg" alt="Photoshop" class= "resize">
+					</td>
+					<td>
+						<img src="images/illustrator.svg" alt="Illustrator" class= "resize">					
+					</td>
+					<td>
+						<img src="images/indesign.svg" alt="InDesign" class= "resize">					
+					</td>
+					<td>
+						<img src="images/dreamweaver.svg" alt="Dreamweaver" class= "resize">								
+					</td>
+				</tr>
+			</table>
+		</section>
+		
+		<section id="socials">
+			<h2>Social Media</h2>
+			
+			<table class="center">
+				<tr>			
+					<td>
+						<a href="https://instragram.com/avn_art9"><img src="images/instagram.svg" alt="instagram" class= "resize"></a>
+					</td>
+					<td>
+						<a href="https://github.com/normaville"><img src="images/github-icon.svg" alt="github" class= "resize"></a>
+					</td>
+				</tr>				
+			</table>		
+		</section>
+	</article>
+	
+	<article  class="work">	
+		<section id="samples">
+			<h2>Work Samples</h2>
+			<h3>Illustration</h3>
+			
+			<a href="ballerina.html"><img src="images/ballerina200px.png" alt="Ballerina with a Christmas dress." width="200"></a>
+			<a href="landscape.html"><img src="images/landscape200px.png" alt="Two people floating in a landscape." width="200"></a>
+			<a href="woman.html"><img src="images/woman200px.png" alt="Portrait of a woman." width="200"></a>
+			<a href="girl.html"><img src="images/girl200px.png" alt="A girl wielding a staff." width="200"></a>
+			<a href="character.html"><img src="images/female200px.png" alt="Three drawings of a girl." width="200"></a>
+		</section>
+		
+		<section>
+			<h3>Graphic Design</h3>
+			
+			<a href="post.html"><img src="images/post200px.png" alt="Social media posts" width="200"></a>
+			<a href="card.html"><img src="images/card200px.png" alt="Good luck greeting card" width="200"></a>
 
-		<a href="ballerina.html"><img src="images/ballerina200px.png" alt="Ballerina with a Christmas dress." width="200"></a>
-		<a href="landscape.html"><img src="images/landscape200px.png" alt="Two people floating in a landscape." width="200"></a>
-		<a href="woman.html"><img src="images/woman200px.png" alt="Portrait of a woman." width="200"></a>
-		<a href="girl.html"><img src="images/girl200px.png" alt="A girl wielding a staff." width="200"></a>
-		<a href="character.html"><img src="images/female200px.png" alt="Three drawings of a girl." width="200"></a>
+		</section>
+		
+		<section>
+			<h3>Web Design</h3>
+			
+			<a href="https://normaville.github.io/fid/bistro/blackgoosebistro.html"><img src="images/bistro200px.png" alt="Black Goose Bistro website" width="200"></a>
+
+		</section>
+		
+		
+	</article>
 	
 	<footer>
-		<h2>Social Media</h2>
-			<p>
-				<a href="https://instragram.com/avn_art9"><img src="images/instagram.svg" alt="instagram"></a>
-				<a href="https://github.com/normaville"><img src="images/github-icon.svg" alt="github"></a>
-			</p>
+		<p>
+			<a href="#top">Back to the Top</a>
+		</p>
+		<p><small>Copyright 2023, Norma Villegas</small></p>
 	</footer>
-	<p><small>Copyright 2023, Norma Villegas</small></p>
 
 </body>
 </html>
