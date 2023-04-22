@@ -1,0 +1,77 @@
+
+body {
+  font-family: 'Raleway', sans-serif;	
+  font-size: 100%;
+  line-height: 175%;
+  margin: 2em 5%;
+  background: #ffffff url(images/blackgoose.png) no-repeat center 100px fixed;
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background:
+	url(images/gooseshadow.png) 90% bottom no-repeat;
+  background-color: rgba(251, 206, 160, .5);
+}
+
+a {
+  text-decoration: none;
+  color: #b24110;
+}
+a:visited {
+	color: #937393;
+}
+a:hover {
+	color: #c700f2;
+	background-color: #e5e6e7;
+}
+a:active {
+	color: #ff00ff;
+}
+h1 {
+  font-family: 'Cinzel', serif;
+  color: #161310;
+  border-bottom: 1px solid #e4740d;
+
+}
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  color: #b24110;
+}
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#info p {
+  font-style: italic;
+}
+.price {
+  font-family: 'Raleway', sans-serif;	
+  font-style: italic;
+}
+p.warning, sup {
+  font-size: small;
+  color: red;
+}
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
