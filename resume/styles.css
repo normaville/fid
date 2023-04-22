@@ -1,0 +1,76 @@
+	body {
+		margin: 2em 7%;
+		font-family: 'Cantarell', sans-serif;
+		text-align: center;
+		background-color: #ffefe1;
+	}	
+	header{
+		background-color: #ddd8ab;
+		margin-top: 0;
+		padding: 2em 1em 2em 1em;
+		
+	}
+	h1 {
+		color:#588c7e;
+		font-weight:bold;
+		margin-top:30px;
+		text-align:center;
+		font-family: 'Fjalla One', sans-serif;
+	}
+	h2 {
+		font-family: 'Fjalla One', sans-serif;
+		color:#588c7e;
+	}
+	h3{
+		font-family: 'Fjalla One', sans-serif;
+ 		color:#acbc8a;
+		
+	}
+	small {
+		color: #999;
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		color: #8c4646;
+
+	}
+	p{
+		color: #8c4646;
+	}
+	table{
+		color: #8c4646;
+	}
+	td{
+		padding: 10px;
+	}
+	a {
+		text-decoration: none;
+		color: #8c4646;
+	}
+	a:visited {
+		color: #937393;
+	}
+	a:hover {
+		color: #bd5b71;
+		background-color: #e5e6e7;
+	}
+	a:active {
+		color: #ff00ff;
+	}
+	.center{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.resize{
+		width: 40px;
+	}
+	.work{
+		background-color: #fdffd7;
+		border-style: solid;
+		border-width: 5px;
+		border-color: #babca2;
+		padding: 1em 1em 1em 1em;
+
+	}
